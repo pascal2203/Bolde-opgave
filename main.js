@@ -2,7 +2,7 @@ console.log("Hello from main");
 /*
 To do list main
 Give spillet lidt grafik
-Sætte noget bagrundsmusik på
+SÃ¦tte noget bagrundsmusik pÃ¥
 
 */
 
@@ -11,6 +11,7 @@ Sætte noget bagrundsmusik på
 canvas = document.createElement("canvas");
 canvas.height = 800;
 canvas.width = 800;
+canvas.style.background="Black"
 canvas.style.border = "5px solid gray";
 canvas = document.body.appendChild(canvas);
 
